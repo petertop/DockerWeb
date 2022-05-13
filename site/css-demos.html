@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+        https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_form
+        https://www.w3schools.com/css/css_selectors.asp
+        https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+        https://specifishity.com/
+        https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#specificity_2
+
+    -->
+    <title>CSS Demos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" rel="text/javascript" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="content/demo-style.css" rel="stylesheet" />
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2">
+
+            </div>
+            <div class="col-sm-10">
+                <h1>SKB BPM Portal</h1>
+            </div>
+        </div>
+    </header>
+    <div id="mainDiv" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-1">
+
+            </div>
+            <div class="col-sm-6">
+                <section>
+                    <div class="row">
+                        <div class="form-container">
+                            <form>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label for="fname">First Name</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <input id="fname" type="text" id="fname" name="firstname"
+                                            placeholder="Your name..">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label class="required" for="lname">Last Name</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label for="birth">Birth date</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <input type="date" id="birthDate">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label for="country">Country</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <select id="country" name="country">
+                                            <option value="australia">Australia</option>
+                                            <option value="canada">Canada</option>
+                                            <option value="usa">USA</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label for="subject">Subject</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <textarea id="subject" name="subject" placeholder="Write something.."
+                                            style="height:200px"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <input type="submit" value="Submit">
+                                    <input id="deleteButon" type="submit" value="x">
+                                    <button class="btn btn-danger">x</button>
+                                    <p></p>
+                                    <button class="btnDeleteRequestItem">x</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <article>
+                            <h1>Paris</h1>
+                            <p>Paris is the capital city of France. It is the most populous city in the United Kingdom,
+                                with a
+                                metropolitan
+                                area of over 2 million inhabitants.</p>
+                            <p>Paris is a major railway, highway, and air-transport hub served by two international
+                                airports: Paris–Charles de Gaulle (the second-busiest airport in Europe) and
+                                Paris–Orly.[9][10] Opened in 1900, the city's subway system, the Paris Métro, serves
+                                5.23 million passengers daily;[11] it is the second-busiest metro system in Europe after
+                                the Moscow Metro.</p>
+                        </article>
+                    </div>
+
+                </section>
+            </div>
+            <div class="col-sm-5">
+                <section>
+                    <article>
+                        <h1>London</h1>
+                        <p>London is the capital city of England. It is the most populous city in the United Kingdom,
+                            with a
+                            metropolitan
+                            area of over 13 million inhabitants.</p>
+                        <p>Standing on the River Thames, London has been a major settlement for two millennia, its
+                            history going
+                            back to
+                            its founding by the Romans, who named it Londinium.</p>
+                    </article>
+                    <article>
+                        <h1>London</h1>
+                        <p>London is the capital city of England. It is the most populous city in the United Kingdom,
+                            with a
+                            metropolitan
+                            area of over 13 million inhabitants.</p>
+                        <p>Standing on the River Thames, London has been a major settlement for two millennia, its
+                            history going
+                            back to
+                            its founding by the Romans, who named it Londinium.</p>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid">
+        Copyright 2020, <a href="https://www.skb.si/">SKB banka</a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+header, footer {
+    background-color:#52AE30;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+aside{
+    padding-top: 10px;
+    font-weight:bold;
+}
+
+.title {
+    color:darkblue;
+}
+#numberMessage, #numberJQMessage
+{
+    color: red;    
+}
+#orderList{
+    color: green;
+}
+
+nav{
+    background-color: #222;
+}
+
+section, article {
+    padding: 10px;
+    background-color: #eee;
+}
+label{
+    padding: 0 10px;
+    width: 100px;
+}
+@page {
+	position:relative;
+	media:print;
+}
+
+.test {
+    background-color: var(--something);
+}
+
+:root {
+    --something: red;
+}
